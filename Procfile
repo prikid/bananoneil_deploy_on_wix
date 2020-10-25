@@ -1,1 +1,1 @@
-web: voila --no-browser --debug softbot_kraken.ipynb
+web: voila --port=$PORT --no-browser --debug softbot_kraken.ipynb
