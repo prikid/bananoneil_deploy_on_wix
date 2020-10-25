@@ -2,3 +2,5 @@ requests
 pandas
 voila
 scipy
+matplotlib
+numpy
