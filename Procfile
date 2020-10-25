@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser --debug --Voila.tornado_settings="{'headers':{'Content-Security-Policy':\"frame-ancestors 'self' https://bananoneil-softbot-kraken.herokuapp.com\"}}" softbot_kraken.ipynb
+web: voila --port=$PORT --no-browser --debug --Voila.tornado_settings="{'headers':{'Content-Security-Policy':\"frame-ancestors 'self' https://bananoneil-softbot-kraken.herokuapp.com\"}}" --Voila.tornado_settings="{'allow_origin': '*'}" softbot_kraken.ipynb
